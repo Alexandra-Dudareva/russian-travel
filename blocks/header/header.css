@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    border: red 0.1px solid;
+    max-width: 1184px;
+    margin: 28px 48px 0;
+}

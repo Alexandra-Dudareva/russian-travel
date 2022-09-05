@@ -7,3 +7,15 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+.place__website_link:hover {
+    opacity: 0.8;
+    transition: opacity .3s ease-in;
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        display: flex;
+    }
+
+}

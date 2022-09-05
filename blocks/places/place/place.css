@@ -8,8 +8,8 @@
     grid-template-areas:
     "place__title place__website"
     "place__image place__paragraph-container";
-    justify-content: space-between;
-    align-content: space-evenly;
+    /*justify-content: space-between;
+    align-content: space-evenly;*/
 }
 
 .place:first-child{
@@ -33,15 +33,6 @@
     }
 
 }
-
-/*@media screen and (max-width: 767px) {
-    .place {
-        max-width: 320px;
-        grid-template-columns: repeat(1, 320px);
-        gap: 50px;
-    }
-
-}*/
 
 @media screen and (max-width: 767px) {
     .place {

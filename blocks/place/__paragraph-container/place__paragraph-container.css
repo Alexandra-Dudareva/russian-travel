@@ -1,0 +1,15 @@
+.place__paragraph-container {
+    grid-area: place__paragraph-container;
+    align-self: start;
+    justify-self: start;
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph-container {
+        margin: 0 16px 0 16px;
+    }
+
+}
+
+
+
